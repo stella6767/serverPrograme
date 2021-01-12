@@ -12,7 +12,7 @@
 - 인코딩 utf-8
 - git
 
-##요구사항
+## 요구사항
 
 - User 테이블을 생성한다. (id, username, password, email, role)
 - MVC 서버를 구축한다. (userList.jsp, login.jsp, join.jsp 필요)
@@ -23,7 +23,7 @@
 - 부트스트랩을 이용하여 디자인한다.
 
 
-##평가요소
+## 평가요소
 
 - Apache Tomcat WAS를 설치하고 웹 포트번호는 8000로 설정되었다.
 - WAS의 utf-8 설정을 위한 필터가 적용되었다.
@@ -66,7 +66,7 @@ CREATE TABLE user(
 insert into user(username,password,email,userRole,createDate) values('admin','1234','admin@gmail.com','admin',now());
 ```
 
-##DB 설정
+## DB 설정
 
 ``` web.xml
 	<description>MySQL Test App</description>
@@ -90,7 +90,7 @@ insert into user(username,password,email,userRole,createDate) values('admin','12
 
 ```
 
-##필터 설정
+## 필터 설정
 
 ```스크립트 방어, 인코딩 설정
 	<filter>
