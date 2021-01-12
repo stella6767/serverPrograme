@@ -37,6 +37,10 @@
 - JDBC를 이용한 데이터 처리가 가능하다.
 
 
+## PPT
+[JSP 서버프로그램 구현](https://drive.google.com/file/d/172R1Cse4QdF0rcYU5OUDJcCtHKQmtCKo/view?usp=sharing, "ppt link")
+
+
 
 ## MySQL 데이터베이스 생성 및 사용자 생성
 
