@@ -125,12 +125,11 @@ insert into user(username,password,email,userRole,createDate) values('admin','12
 ```
 <%
 
-/* 	RequestDispatcher dis = request.getRequestDispatcher("user?cmd=list&page=0");
+/* 	RequestDispatcher dis = request.getRequestDispatcher("user?cmd=userList&page=0");
 	dis.forward(request, response); */
-	/* 디스패처 만들면 안 통하는 이유? */
+
 			
-/* 	디스패처든 sendREdirect이든 식별자를 찾을 수 있음. 단지 필터를 타냐 안 타냐의 차이일뿐.
-	근데 이건 왜 안 되지....*/
+/* 	디스패처든 sendREdirect이든 식별자를 찾을 수 있음. 단지 필터를 타냐 안 타냐의 차이일뿐. 둘 다 됨 */
 	
 	response.sendRedirect("/kang/user?cmd=userList&page=0");
 %>
